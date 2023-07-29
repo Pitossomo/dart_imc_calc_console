@@ -1,5 +1,7 @@
-import 'package:dart_imc_calc_console/dart_imc_calc_console.dart' as dart_imc_calc_console;
+import 'package:dart_imc_calc_console/classes/pessoa.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_imc_calc_console.calculate()}!');
+  print("*** Calculadora de IMC ***");
+
+  print(Pessoa(73, 163));
 }
