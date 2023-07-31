@@ -11,6 +11,6 @@ class Pessoa {
 
   @override
   String toString() {
-    return "Height: $height cm, Weight: $weight kg, IMÇ: $imc";
+    return "Altura: $height cm, Pesoo: $weight kg, IMC: $imc";
   }
 }
