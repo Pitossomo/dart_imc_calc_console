@@ -1,5 +1,11 @@
-import 'package:dart_imc_calc_console/dart_imc_calc_console.dart' as dart_imc_calc_console;
+import 'package:dart_imc_calc_console/classes/pessoa.dart';
+import 'package:dart_imc_calc_console/console_utils.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${dart_imc_calc_console.calculate()}!');
+  print("*** Calculadora de IMC ***");
+
+  int height = readInt("altura em cm"); 
+  int weight = readInt("peso em kg");
+
+  print(Pessoa(weight, height));
 }
